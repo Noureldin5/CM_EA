@@ -13,7 +13,6 @@ S = sin(r) + S
 print*,S/i
 i = i + 1
 end do
-print*,S/M 
-result = (b - a) * (S / M)
-    print *, "Final Result: ", result
+result =S/M
+print*,"Result:",result
 end program integral_or_smth
